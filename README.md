@@ -2,7 +2,7 @@
 ## A scheduling and progress tracking application for android.
 
 ## Purpose:
-#### This application was part of my coursework at Western Governors University. The assignment was to create a scheduling and progress tracking application for college courses at WGU. Build for android with Java.
+#### This application was part of my coursework at Western Governors University. The assignment was to create a scheduling and progress tracking application for android for college courses at WGU. The application was built with Android Studio with Java as the primary language.
 
 ## Features
 #### This application has many features including:
