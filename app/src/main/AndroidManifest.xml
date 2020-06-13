@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.c196">
+    
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".NavigationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TermsActivity"></activity>
+        <activity android:name=".TermActivity"></activity>
+        <activity android:name=".EditTermActivity"></activity>
+        <activity android:name=".AddTermActivity"></activity>
+        <activity android:name=".CoursesActivity"></activity>
+        <activity android:name=".CourseActivity"></activity>
+        <activity android:name=".AssessmentsActivity"></activity>
+        <activity android:name=".AssessmentActivity"></activity>
+        <activity android:name=".AddCourseActivity"></activity>
+        <activity android:name=".EditCourseActivity"></activity>
+        <activity android:name=".AddAssessmentActivity"></activity>
+        <activity android:name=".EditAssessmentActivity"></activity>
+        <activity android:name=".ShareNotesActivity"></activity>
+
+
+        <receiver
+            android:name=".NotificationBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+        </receiver>
+
+    </application>
+
+</manifest>

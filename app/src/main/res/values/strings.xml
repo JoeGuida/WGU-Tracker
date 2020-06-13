@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- App -->
+    <string name="appName">C196</string>
+
+    <!-- Navigation Activity -->
+    <string name="navigationHeader">WGU Tracker</string>
+    <string name="navigationButton">Go To Terms</string>
+
+    <!-- Terms Activity -->
+    <string name="termsHeader">Terms</string>
+    <string name="addTermButton">Add Term</string>
+    <string name="homeButton">Home</string>
+
+    <!-- Term Activity-->
+    <string name="termHeader">Term Name</string>
+    <string name="termCoursesButton">Courses</string>
+    <string name="backToTermsButton">Back To Terms</string>
+    <string name="deleteTermButton">Delete Term</string>
+
+    <!-- Add Term Activity -->
+    <string name="addTermHeader">Add Term</string>
+    <string name="termTitleHeader">Term Title</string>
+    <string name="termStartDateHeader">Start Date</string>
+    <string name="termEndDateHeader">End Date</string>
+    <string name="createTermButton">Create Term</string>
+
+    <!-- Edit Term Activity -->
+    <string name="editTermHeader">Edit Term</string>
+    <string name="editTermButton">Edit Term</string>
+
+    <!-- Courses Activity -->
+    <string name="coursesHeader">Courses</string>
+    <string name="addCourseButton">Add Course</string>
+    <string name="backToTermButton">Back To Term</string>
+
+    <!-- Course Activity -->
+    <string name="courseHeader">Course Name</string>
+    <string name="courseAssessmentButton">Assessments</string>
+    <string name="backToCoursesButton">Back To Courses</string>
+    <string name="deleteCourseButton">Delete Course</string>
+    <string name="mentorName">Mentor Name:</string>
+    <string name="mentorPhone">Mentor Phone:</string>
+    <string name="mentorEmail">Mentor Email:</string>
+    <string name="shareNotesButton">Share Notes</string>
+
+    <!-- Add Course Activity -->
+    <string name="addCourseHeader">Add Course</string>
+    <string name="addCourseNameHeader">Course Name</string>
+    <string name="courseStartDateHeader">Start Date</string>
+    <string name="courseEndDateHeader">End Date</string>
+    <string name="courseStatusHeader">Status</string>
+    <string name="courseMentorNameHeader">Mentor Name</string>
+    <string name="courseMentorPhoneHeader">Mentor Phone</string>
+    <string name="courseMentorEmailHeader">Mentor Email</string>
+    <string name="courseNotesHeader">Notes</string>
+    <string name="editCourseButton">Edit Course</string>
+
+    <!-- Edit Course Activity -->
+    <string name="editCourseHeader">Edit Course</string>
+
+    <!-- Assessments Activity -->
+    <string name="assessmentsHeader">Assessments</string>
+    <string name="addAssessmentButton">Add Assessment</string>
+    <string name="backToCourseButton">Back To Course</string>
+
+    <!-- Assessment Activity -->
+    <string name="assessmentHeader">Assessment Name</string>
+    <string name="backToAssessmentsButton">Back To Assessments</string>
+    <string name="deleteAssessmentButton">Delete Assessment</string>
+
+    <!-- Add Assessment Activity -->
+    <string name="assessmentNameHeader">Assessment Name</string>
+    <string name="assessmentTypeHeader">Assessment Type</string>
+    <string name="assessmentStatusHeader">Assessment Status</string>
+    <string name="assessmentGoalDateHeader">Goal Date</string>
+    <string-array name="assessmentTypeSpinnerOptions">
+        <item>Objective Assessment</item>
+        <item>Performance Assessment</item>
+    </string-array>
+
+    <!-- Edit Assessment Activity -->
+    <string name="editAssessmentButton">Edit Assessment</string>
+    <string name="editAssessmentHeader">Edit Assessment</string>
+
+    <!-- Share Notes Activity -->
+    <string name="shareNotesHeader">Share Notes</string>
+    <string name="notesHeader">Notes</string>
+    <string name="sendSmsButton">Send SMS</string>
+    <string name="phoneNumberHeader">Phone #:</string>
+
+    <!-- Status -->
+    <string-array name="statusSpinnerOptions">
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Planned</item>
+    </string-array>
+
+    <string name="channel_name">Channel 1</string>
+    <string name="channel_description">Channel Description</string>
+
+</resources>
